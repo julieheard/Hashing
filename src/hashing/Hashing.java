@@ -7,9 +7,11 @@ public class Hashing {
 
     public static void main(String args[]) {
         try {
+            
+            
             //Reading data from user
             Scanner sc = new Scanner(System.in);
-            System.out.println("Enter the message");
+            System.out.println("Enter the code you want to be hashed");
             String message = sc.nextLine();
 
             //Creating the MessageDigest object  
